@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-const song = require('../src/song.js');
-const expectedSong = require('./mock/expectedSong.js');
+const song = require("../src/song.js");
+const expectedSong = require("./mock/expectedSong.js");
 
-describe('The song', function() {
+describe("The song", function () {
   it("is sung", () => {
     expect(song).toEqual(expectedSong);
   });
